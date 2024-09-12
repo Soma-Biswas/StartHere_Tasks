@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Start Here Company Blog</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f7f9fc; /* Lighter grey background */
+            color: #333; 
+            line-height: 1.6;
+        }
+
+        /* Header Section */
+        header {
+            background-color: #1e3a8a; /* Dark blue */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            letter-spacing: 1px;
+            color: #f97316; /* Bright orange for the title */
+        }
+
+        /* Main Layout */
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .blog-posts {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        /* Blog Post Styling */
+        .post {
+            background-color: #fff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05); /* Softer shadow */
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .post:hover {
+            transform: translateY(-5px); /* Smooth lift effect */
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Elevated shadow */
+        }
+
+        .post-title {
+            font-size: 1.8em;
+            color: #1e3a8a; /* Blue for title */
+            margin-bottom: 15px;
+        }
+
+        .post-date {
+            font-size: 0.9em;
+            color: #888;
+            margin-bottom: 20px;
+        }
+
+        .post-excerpt {
+            font-size: 1.1em;
+            color: #555; /* Dark grey */
+            margin-bottom: 20px;
+        }
+
+        /* Read More Button */
+        .read-more {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #f97316;
+            color: white;
+            text-transform: uppercase;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .read-more:hover {
+            background-color: #1e3a8a; /* Dark blue on hover */
+            transform: translateY(-3px); /* Small lift effect */
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1e3a8a;
+            color: white;
+            margin-top: 40px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .post {
+                padding: 20px;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+
+            .post-title {
+                font-size: 1.5em;
+            }
+
+            .read-more {
+                padding: 8px 16px;
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Start Here Company Blog</h1>
+    </header>
+
+    <main>
+        <section class="blog-posts">
+            <article class="post">
+                <h2 class="post-title">Welcome to Start Here Company</h2>
+                <p class="post-date">Posted on: September 09, 2024</p>
+                <p class="post-excerpt">
+                    Start Here Company is dedicated to unlocking your potential with real-world internship experiences. Gain valuable skills, build a strong portfolio, and more...
+                </p>
+                <a href="post1.html" class="read-more">Read More</a>
+            </article>
+
+            <article class="post">
+                <h2 class="post-title">Our Mission at Start Here Company</h2>
+                <p class="post-date">Posted on: September 11, 2024</p>
+                <p class="post-excerpt">
+                    Our mission is to provide freshers with exciting opportunities for a brighter future. Discover our vision and values to shape a better career...
+                </p>
+                <a href="post2.html" class="read-more">Read More</a>
+            </article>
+
+            <article class="post">
+                <h2 class="post-title">Find the Right Online Internship for You</h2>
+                <p class="post-date">Posted on: September 15, 2024</p>
+                <p class="post-excerpt">
+                    Choosing the right opportunity is crucial for career growth. Learn why Start Here Company is trusted by professionals worldwide...
+                </p>
+                <a href="post3.html" class="read-more">Read More</a>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Start Here Company. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
